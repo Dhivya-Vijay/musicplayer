@@ -1,0 +1,132 @@
+.boxes{
+    margin: 250px;
+    background-color: white;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    position: absolute;
+    bottom: 0;
+    animation-iteration-count: infinite;
+    align-items: center;
+}
+
+.text{
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+
+#level_1,#level_8{
+    height: 50px;
+    width: 20px;
+    background-color: orangered;
+    display: inline-block;
+    animation: bar2 0.2s linear 0.5s infinite alternate ; 
+}
+
+@keyframes bar1{
+    from{
+        height: 0px;
+        bottom: 0;
+    }
+    to{
+        height: 50px;
+        bottom: 0;
+    }
+}
+
+#level_2{
+    height: 70px;
+    width: 20px;
+    background-color: orangered;
+    display: inline-block;
+    animation: bar2 0.5s linear  infinite alternate ; 
+}
+
+@keyframes bar2{
+    from{
+        height: 0px;
+        bottom: 0;
+    }
+    to{
+        height: 90px;
+        bottom: 0;
+    }
+}
+
+#level_3{
+    height: 70px;
+    width: 20px;
+    background-color: orangered;
+    display: inline-block;
+    animation: bar2 0.6s linear  infinite alternate ; 
+}
+
+#level_4{
+    height: 70px;
+    width: 20px;
+    background-color: orangered;
+    display: inline-block;
+    animation: bar2 0.2s linear  infinite  ;
+     
+}
+
+@keyframes bar3{
+    from{
+        height: 0px;
+        bottom: 0;
+    }
+    to{
+        height: 150px;
+        bottom: 0;
+    }
+}
+
+#level_5{
+    height: 70px;
+    width: 20px;
+    background-color: orangered;
+    display: inline-block;
+    animation: bar2 2s linear  infinite  ; 
+}
+
+
+
+
+@keyframes bar4{
+    from{
+        height: 0px;
+        bottom: 0;
+    }
+    to{
+        height: 200px;
+        bottom: 0;
+    }
+}
+#level_6{
+    height: 70px;
+    width: 20px;
+    background-color: orangered;
+    display: inline-block;
+    animation: bar3 0.5s linear  infinite  ; 
+}
+
+
+#level_7{
+    height: 70px;
+    width: 20px;
+    background-color: orangered;
+    display: inline-block;
+    animation: bar2 2s linear 0.5s infinite  ; 
+}
+
+
+@keyframes bar5{
+    from{
+        height: 0px;
+        bottom: 0;
+    }
+    to{
+        height: 230px;
+        bottom: 0;
+    }
+}
